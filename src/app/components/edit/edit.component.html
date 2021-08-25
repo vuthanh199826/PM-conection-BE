@@ -1,0 +1,10 @@
+<p>edit works!</p>
+<br>
+<form [formGroup]="product" (ngSubmit)="update()">
+    <table>
+        <tr><td>Name</td><td><input type="text" formControlName="name"></td></tr>
+        <tr><td>Price</td><td><input type="text" formControlName="price"></td></tr>
+        <tr><td>Description</td><td><input type="text" formControlName="description"></td></tr>
+        <tr><td colspan="2"><button>Save</button></td></tr>
+    </table>
+</form>

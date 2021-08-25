@@ -1,0 +1,10 @@
+<p>delete works!</p>
+<br>
+<form [formGroup]="productForm" (ngSubmit)="delete(id)" >
+<table style="text-align: center" class="table table-striped" >
+    <tr><td>Name</td><td><input disabled type="text" formControlName="name"></td></tr>
+    <tr><td>Price</td><td><input disabled type="text" formControlName="price"></td></tr>
+    <tr><td>Description</td><td><input disabled type="text" formControlName="description"></td></tr>
+    <tr><td colspan="2"><button class="btn btn-danger">DELETE</button></td></tr>
+</table>
+</form>

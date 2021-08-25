@@ -1,0 +1,14 @@
+<p>create works!</p>
+<br>
+<form [formGroup]="productForm" (ngSubmit)="create()">
+    <table>
+        <tr><td><input type="text" formControlName="name"></td></tr>
+        <tr><td><input type="text" formControlName="price"></td></tr>
+        <tr><td><input type="text" formControlName="description"></td></tr>
+        <tr><td><button>Create</button></td></tr>
+    </table>
+
+
+
+
+</form>
